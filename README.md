@@ -7,12 +7,17 @@
 - Language Model Integration: Powered by Groq's Llama-3 8B model for generating context-aware responses.
 - Retrieval Chain: Combines document retrieval and response generation for accurate answers.
 
-## In the .env file add the keys for groq_api and open_ai
-GROQ_API_KEY = ""
-OPENAI_API_KEY = ""
 
-Link for Groq API: https://console.groq.com/keys
-Link for Open_AI Key: https://platform.openai.com/api-keys
+## In the .env file add the keys for groq_api and open_ai
+
+```sh
+GROQ_API_KEY = "" 
+OPENAI_API_KEY = ""
+```
+
+Link for Groq API: [https://console.groq.com/keys](https://console.groq.com/keys)  
+Link for Open_AI Key: [https://platform.openai.com/api-keys](https://platform.openai.com/api-keys)
+
 
 ### The Open AI embeddings were used because they provided the most accurate results. However, any open-source model embeddings can be used as they can be easily changed in the code.
 
