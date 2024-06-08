@@ -15,8 +15,9 @@ GROQ_API_KEY = ""
 OPENAI_API_KEY = ""
 ```
 
-Link for Groq API: [https://console.groq.com/keys](https://console.groq.com/keys)  
-Link for Open_AI Key: [https://platform.openai.com/api-keys](https://platform.openai.com/api-keys)
+Link for Groq API: [Groq_Cluoud](https://console.groq.com/keys)  
+Link for Open_AI Key: [Open_API_Dashboard](https://platform.openai.com/api-keys)
+Link for Cohere API key: [Cohere_Dashboard](https://dashboard.cohere.com/)
 
 
 ### The Open AI embeddings were used because they provided the most accurate results. However, any open-source model embeddings can be used as they can be easily changed in the code.
