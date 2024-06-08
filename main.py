@@ -63,7 +63,7 @@ def process_file(uploaded_file):
             st.error('Could not find the file you uploaded, please check again...')
             st.stop()
 
-        documents = st.session_state.loader.load()[:20]
+        documents = st.session_state.loader.load()
         return documents
 
 def setup_chain(documents):
