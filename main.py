@@ -26,6 +26,7 @@ load_dotenv()
 ## load the GROQ And OpenAI API KEY 
 os.environ['OPENAI_API_KEY'] = os.getenv("OPENAI_API_KEY")
 groq_api_key = os.getenv('GROQ_API_KEY')
+#os.environ['COHERE_API_KEY'] = os.getenv("COHERE_API_KEY")
 
 # Initialize session state
 if "id" not in st.session_state:
