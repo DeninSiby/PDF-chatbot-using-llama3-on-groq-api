@@ -20,6 +20,7 @@ Link for Open_AI Key: [https://platform.openai.com/api-keys](https://platform.op
 
 
 ### The Open AI embeddings were used because they provided the most accurate results. However, any open-source model embeddings can be used as they can be easily changed in the code.
+### Update: The Cohere Embeddings also works really. (pip install langchain-cohere)
 
 ## How to Run
 
