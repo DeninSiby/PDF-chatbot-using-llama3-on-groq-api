@@ -15,6 +15,9 @@ from langchain.chains import create_retrieval_chain
 from langchain_community.vectorstores import FAISS
 from langchain_community.document_loaders import PyPDFLoader
 
+#if you want it to be fully open source
+# from langchain_cohere import CohereEmbeddings
+
 import streamlit as st
 
 # Load environment variables from .env file
@@ -67,6 +70,7 @@ def setup_chain(documents):
     # """Setup retrieval chain."""
     llm = ChatGroq(groq_api_key=groq_api_key, model_name="llama3-8b-8192")
     embeddings = OpenAIEmbeddings()
+    #embeddings = CohereEmbeddings()
     text_splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=100)
     final_documents = text_splitter.split_documents(documents)
     vectors = FAISS.from_documents(final_documents, embeddings) 
