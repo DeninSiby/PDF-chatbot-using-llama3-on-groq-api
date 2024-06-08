@@ -16,7 +16,7 @@ OPENAI_API_KEY = ""
 ```
 
 Link for Groq API: [Groq_Cluoud](https://console.groq.com/keys)  
-Link for Open_AI Key: [Open_API_Dashboard](https://platform.openai.com/api-keys)
+Link for Open_AI Key: [Open_API_Dashboard](https://platform.openai.com/api-keys)  
 Link for Cohere API key: [Cohere_Dashboard](https://dashboard.cohere.com/)
 
 
